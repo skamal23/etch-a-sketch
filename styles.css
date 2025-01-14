@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 5px solid navy;
+    flex-wrap: wrap;
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    background-color: lightgray;
+}
+
+.gridbox {
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0;
+}
